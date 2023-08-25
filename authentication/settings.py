@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-j0ppdoi+fq20hw3c0(vju+j8g$xh-c1l$vcreh$d$qif&@(b#^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = []
+
+AUTH_USER_MODEL = "users.CustomUser"
 
 
 # Application definition
@@ -80,7 +83,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'users',
         "CLIENT": {
-            'host': 'mongodb+srv://mrshaikh11:<password>@cluster0.26wp4uq.mongodb.net/',
+            'host': 'mongodb+srv://mrshaikh11:Dollar12@cluster0.h3n9v2i.mongodb.net/',
             'username': 'mrshaikh11',
             'password': 'Dollar12'
         }
